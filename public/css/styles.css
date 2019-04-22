@@ -1,11 +1,42 @@
-.navbar .container-fluid > .navbar-header {
-  float: left;
-  margin-right: 10px;
+#homepage {
+  text-align: center;
 }
-.navbar .navbar-nav {
-  float: left;
-  margin: 5px;
+
+.btn-facebook {
+  background-color: #4aa1f3;
+  border-radius: 0%;
+  color: #fff;
+  width: auto;
 }
-.nav > li {
-  float: left;
+.btn-facebook:link,
+.btn-facebook:visited {
+  text-decoration: none;
+  background-color: #4aa1f3;
+  color: #fff;
+}
+.btn-gplus {
+  background: #e44b34;
+  color: #fff;
+  border-radius: 0%;
+  width: auto;
+}
+.btn-gplus:link,
+.btn-gplus:visited {
+  background-color: #e44b34;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-instagram {
+  background-color: rgb(195, 42, 163);
+  border-radius: 0%;
+  width: auto;
+  color: #fff;
+}
+
+.btn-instagram:link,
+.btn-instagram:visited {
+  background-color: rgb(195, 42, 163);
+  color: #fff;
+  text-decoration: none;
 }
